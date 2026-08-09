@@ -1,0 +1,9 @@
+Assist detection
+Stat Window
+Double kill / multi-kill tracking + different sounds
+
+Saving multiple sound profiles
+
+
+
+Clean up the status ID lookup with the real IDs from your client
