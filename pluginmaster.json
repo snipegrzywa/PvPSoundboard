@@ -1,0 +1,19 @@
+[
+  {
+    "Author": "SnipeGrzywa",
+    "Name": "PVP Soundboard",
+    "Punchline": "Custom kill, death, assist, and Battle High sounds for PvP.",
+    "Description": "Plays configurable sound clips on PvP kills, deaths, assists, killstreaks, and Frontline Battle High rank-ups. Version 0.1 — experimental.",
+    "InternalName": "PvPSoundboard",
+    "AssemblyVersion": "0.1.0.0",
+    "RepoUrl": "https://github.com/snipegrzywa/PvPSoundboard",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/snipegrzywa/PvPSoundboard/releases/download/testing/PvPSoundboard-0.1.0.zip",
+    "DownloadLinkUpdate": "https://github.com/snipegrzywa/PvPSoundboard/releases/download/testing/PvPSoundboard-0.1.0.zip",
+    "DownloadLinkTesting": "https://github.com/snipegrzywa/PvPSoundboard/releases/download/testing/PvPSoundboard-0.1.0.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "LastUpdate": "1720000000"
+  }
+]
