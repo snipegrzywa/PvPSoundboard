@@ -139,23 +139,12 @@ public sealed class SoundPlayer : IDisposable
             var reader = OpenAudioFile(path);
             currentReader = reader;
 
-            ISampleProvider sampleProvider;
-            if (reader is AudioFileReader afr)
-            {
-                afr.Volume = volume;
-                sampleProvider = afr.ToSampleProvider();
-            }
-            else
-            {
-                sampleProvider = new VolumeSampleProvider(reader.ToSampleProvider())
-                {
-                    Volume = volume
-                };
-            }
+            var volumeProvider = new VolumeSampleProvider(reader.ToSampleProvider());
+            volumeProvider.Volume = 3.0f*volume; // adjust the volume to compensate for the low default volume of some files
 
             currentDevice = new WaveOutEvent();
             currentDevice.PlaybackStopped += OnPlaybackStopped;
-            currentDevice.Init(sampleProvider);
+            currentDevice.Init(volumeProvider);
             currentDevice.Play(); // required
         }
         catch (Exception ex)

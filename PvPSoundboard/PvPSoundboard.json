@@ -4,7 +4,7 @@
   "Punchline": "Custom sound clips for PVP kills, deaths and more.",
   "Description": "Monitors PVP battles and plays configurable sound clips when you get kills, die, or get assists.",
   "InternalName": "PvpSoundboard",
-  "AssemblyVersion": "0.1.0.0",
+  "AssemblyVersion": "0.1.0.1",
   "RepoUrl": "https://github.com/snipegrzywa/PvpSoundboard",
   "ApplicableVersion": "any",
   "Tags": ["pvp", "sound", "qol"],
